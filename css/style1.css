@@ -1,0 +1,19 @@
+html, body {
+    margin:0;
+    background: blue;
+    @media (max-width: 36rem) {
+        background: blue;
+    }
+
+    @media (min-width: 36rem) and (max-width: 75rem) {
+        background: yellow;
+    }
+
+    @media (min-width: 75rem) and (max-width: 87.5rem) {
+        background: purple;
+    }
+
+    @media (min-width: 87.5rem) {
+        background: white;
+    }
+}
