@@ -1,6 +1,7 @@
 html, body {
     margin:0;
     background: blue;
+
     @media (max-width: 36rem) {
         background: blue;
     }
@@ -16,4 +17,5 @@ html, body {
     @media (min-width: 87.5rem) {
         background: white;
     }
+
 }
