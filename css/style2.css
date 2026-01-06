@@ -1,0 +1,56 @@
+h1 {
+  font-size: clamp(1.95rem, 1.6276rem + 0.8485vw, 2.37rem);
+}
+
+h2 {
+  font-size: clamp(1.56rem, 1.3911rem + 0.4444vw, 1.78rem);
+}
+
+h3 {
+  font-size: clamp(1.25rem, 1.1886rem + 0.1616vw, 1.33rem);
+}
+
+h4 {
+  font-size: clamp(1.0rem, 1.0000rem + 0.0000vw, 1.0rem);
+}
+
+p {
+  font-size: 1rem;
+}
+
+.section-container {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.subcontainer-text {
+  flex: 1;
+  padding: 1rem;
+  background: #df6161;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subcontainer-image {
+  flex: 1;
+  padding: 1rem;
+  background: #df6161;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-container h2 {
+  margin-top: 0;
+}
+
+.subcontainer-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
